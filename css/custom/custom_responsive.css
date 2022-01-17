@@ -1,0 +1,608 @@
+@media only screen and (max-width:1205px) {
+    .modal__prehome-img{
+        background-image:url(../images/fnh/Nicolas-Hulot-mobile-popup-min.html);
+        background-repeat:no-repeat;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    /* Generic */
+    .resp-mobile {display: none!important;}
+    .resp-tablette {display: none!important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Generic */
+    .resp-mobile {display: none!important;}
+
+    .full-width {
+        padding: 0 5vw;
+    }
+
+     /* bloc3 - experts */
+     .bloc_expert {
+    padding: 1vh 12vw 0 5vw;
+    }
+    #slider_expert_section .slide-txt {
+        max-width: 50%;
+    }
+    #slider_expert_section h6 span:not(.chiffres) {
+        display: none!important;
+    }
+    .chiffres.tablette {
+        min-width: 6.3rem;
+        max-height: 2.2rem;
+    }
+    .bloc_expert span.resp-desk {display: none;}
+
+    /* Dons */
+    .points-dons {
+    width: 50%;
+    }
+    #boutons_dons input {
+        width: 12vw;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    /* Generic
+    ---------------------*/
+    .resp-tablette {display: none!important;}
+    .resp-desk {display: none!important;}
+
+    /* Pre-home
+    -----------------------------------*/
+    .modal__prehome-img {height: 100vh;}
+
+    .full-width {
+        padding: 0 5vw;
+    }
+    /* Bouton mobile sticky
+    -----------------------------------*/
+    #cta_btn-mobile-sticky {
+        z-index: 9999;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        margin: 1rem 5%;
+        background-color: var(--red-color);
+    }
+    .cta_btn {
+        width: 100%;
+        height: 4rem;
+        margin: 0;
+        padding: 1rem 0;
+    }
+    #cta_btn-mobile-sticky .cta_text {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+    /* Slider home
+    -----------------------------------*/
+    #header-fnh_social-links {
+        position: absolute;
+        top: 25px;
+        right: 4vw;
+        flex-direction: column;
+        height: auto;
+        transform: none;
+    }
+    .social-links svg {
+        height: 55px;
+        width: 60px;
+        margin-bottom: 0;
+    }
+    #slider {
+        /*height: 100vh;
+        width: 100vw;*/
+        height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    #slider .slide2 {
+      background-image: url('../../images/lp-ecoacteur_innondation-mobile.jpg');
+    }
+    .slide-txt {
+        align-items: center;
+        padding: 0;
+    }
+    .slide-txt h1 {
+        font-size: 11vw;
+        line-height: normal;
+    }
+    .slide-txt h2 {
+        text-align: center;
+        font-size: 6.7vw;
+        line-height: 8.5vw;
+        padding: 3vw 0 0 0;
+    }
+    #slider p {
+        font: 500 1rem 'futura-pt', sans-serif;
+        position: absolute;
+        width: 50%;
+        left: 10vw;
+        bottom: 4.8rem;
+        padding: 0;
+        line-height: 1.1rem;
+    }
+    #slider p::before {
+        margin-left: -1rem;
+    }
+    #slider .slider-arrow-right {
+        right: 5vw;
+        top: auto;
+        bottom: 3.8rem;
+    }
+    #slider .slider-arrow-left {
+        right: 19vw;
+        top: auto;
+        bottom: 3.8rem;
+        left: auto;
+    }
+
+    /* Logo */
+    #logo-fnh-mobile {
+        position: absolute;
+        top: 25px;
+        left: 22px;
+        z-index: 99;
+        width: 195px;
+    }
+
+
+
+    /* Modales */
+    .mfp-container {padding: 0;width: 100vw;}
+    .mfp-inline-holder .mfp-content {width:100%}
+    #bouton-close {
+        position: relative;
+        width: 8vw;
+        height: 8vw;
+    }
+    #bouton-close button.modal-close {
+        height: 8vw;
+        width: 8vw;
+        background-size: 3.8vw;
+        line-height: 8vw;
+    }
+    #modal__video-expert1 > div, #modal__video-expert2 > div, #modal__video-expert3 > div, #modal__video-expert4 > div {
+        max-height: 90%;
+        max-width: 90%;
+    }
+
+        /* Slider Agissons
+        -----------------------------*/
+        #agissons-ensemble {
+            padding-bottom: 2rem;
+        }
+        .txt__agissons {
+            padding: 17vw 0 10vw 0;
+        }
+        .txt__agissons h2 {
+            font-size: 7vw;
+            line-height: 7.5vw;
+            padding: 0 4vw;
+        }
+        .txt__agissons h2.resp-mobile {
+            font-size: 9vw;
+            line-height: 10vw;
+        }
+        .txt__agissons h3 {
+            font-size: 5vw;
+            padding: 4vw .5vw;
+        }
+        #section__agissons-photos {
+            flex-direction: column;
+            justify-content: center;
+        }
+        #section__agissons-photos .slick-slide {
+            height: 120vw;
+        }
+        .jardinage, .mecano, .nettoyage {
+            width: 90vw;
+            height: 120vw;
+        }
+        div.section__agissons-photos-txt {
+            width: 90vw;
+        }
+        .section__agissons-photos-txt span {
+            font-size: 5.5vw;
+            line-height: 6.5vw;
+            padding: 0 1vw;
+            margin: .6vw;
+        }
+        .slick-arrow {
+            background-repeat: no-repeat;
+            width: 12vw;
+            height: 12vw;
+            background-color: transparent;
+            border: none;
+            position: absolute;
+        }
+        .slick-prev {
+            background-image: url('../../images/icon-left.svg');
+            bottom: -17vw;
+            right: 52vw;
+        }
+        .slick-next {
+            background-image: url('../../images/icon-right.svg');
+            bottom: -17vw;
+            left: 52vw;
+        }
+        #agissons-ensemble .cta_btn {
+            width: 90%;
+            height: 4rem;
+            margin: 0;
+            padding: 1rem 0;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2rem;
+        }
+
+        /* Slider expert
+        -----------------------------*/
+        #slider_expert_section {
+            padding-top: 0;
+            height: 1050px;
+            min-height: 210vw;
+        }
+        #slider_expert_section.swiper_wrapper .swiper-container {
+            height: 100%;
+        }
+        #slider_expert_section .swiper-slide {
+            height: auto;
+        }
+        #slider_expert_section .swiper-slide-bg {
+            height: 500px;
+        }
+        #slider_expert_section .slide-txt {
+            padding: 80px 0 0 0;
+            height: auto;
+        }
+        #slider_expert_section .slide-txt h3 {
+            text-align: center;
+            font-size: 1.8rem;
+            line-height: 2rem;
+        }
+        #slider_expert_section .slide-txt > div {
+            flex-direction: column;
+        }
+        span.chiffres {
+            font-size: 2rem;
+        }
+        #slider_expert_section .slide-txt h6 {
+            text-align: center;
+            font-size: 1.3rem;
+            padding: 1rem;
+            line-height: 1.6rem;
+        }
+        #slider_expert_section p.legend-photo {
+            font: 500 1rem 'futura-pt', sans-serif;
+            line-height: 1.1rem;
+            left: 0;
+            bottom: auto;
+            top: 420px;
+            width: 100%;
+            text-align: center;
+        }
+        #slider_expert_section .slider-arrow-right, #slider_expert_section .slider-arrow-right2  {
+            top: 370px;
+            left: 52vw;
+        }
+        #slider_expert_section .slider-arrow-left, #slider_expert_section .slider-arrow-left2 {
+            top: 370px;
+            right: 52vw;
+            left: auto
+        }
+
+        #slider_expert_section .expert-arrow2 {
+            top: auto;
+            bottom: 0;
+        }
+        #slider_expert_section .expert-arrow2.slider-arrow-right2 {
+            top: auto;
+            bottom: 0;
+            right: 38%;
+        }
+        #slider_expert_section .expert-arrow2.slider-arrow-left2 {
+            top: auto;
+            bottom: 0;
+            left: 38%;
+        }
+        .slider-arrow-left2, .slider-arrow-right2 {
+            position: absolute;
+            z-index: 10;
+            background-color: rgba(0,0,0,0);
+            width: 52px;
+            height: 52px;
+            border: 0;
+            border-radius: 0 3px 3px 0;
+            transform: translateY(-50%);
+            -webkit-transition: background-color .3s ease-in-out;
+            -o-transition: background-color .3s ease-in-out;
+            transition: background-color .3s ease-in-out;
+        }
+        .bloc_expert {
+            float: left;
+            margin-top: 450px;
+            padding: 0 1rem;
+            width: 100%;
+        }
+        .bloc_expert > * {
+            width: 100%;
+        }
+        .bloc_expert .modal-video:hover {
+            width: 100%;
+        }
+        .bloc_expert a.modal-video:hover .play-video-expert {
+            width: 5rem;
+            margin: .7rem .8rem;
+        }
+        .bloc_expert a.modal-video:hover p.legend-expert {
+            font-size: 1.1rem;
+            line-height: 1.2rem;
+            padding-left: 1rem;
+        }
+        .bloc_expert-lien-video {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            height: 230px;
+            background-position: left;
+            background-size: 135%;
+            height: 55vw;
+        }
+        p.legend-expert {
+            font-size: 1.1rem;
+            line-height: 1.2rem;
+            padding-left: 1rem;
+            margin-bottom: .7rem;
+        }
+        .play-video-expert {
+            width: 5rem;
+            margin: .7rem .8rem;
+            transition: all .3s;
+        }
+        .bloc_expert-txt {
+            padding: 1rem;
+            text-align: center;
+        }
+        .expert-accroche {
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+            text-align: center;
+        }
+        p.expert-don {
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+            margin: 0;
+        }
+        .picto-expert1, .picto-expert2, .picto-expert3, .picto-expert4 {
+            width: 4rem;
+            margin: .5rem auto 1.2rem auto;
+        }
+        p.expert-bl {
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+            margin: .5rem 0;
+        }
+        .folio {
+            display: none;
+        }
+        #slider_expert_section .liendon {
+            width: 100%;
+            height: 4rem;
+            margin: 0;
+            padding: 1rem 0;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2rem;
+        }
+        #slider_expert_section .liendon:hover {
+            background-color: #fff;
+            color: var(--red-color);
+            border-color: #fff;
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+        #slider_expert_section .swiper-pagination {
+            right: 0;
+            margin: -40px 0 0 0;
+            left: 0;
+            text-align: center;
+            bottom: 5vh!important;
+            position: relative;
+            z-index: 100;
+        }
+        #slider_expert_section .slider-inner {
+            padding-bottom: 0
+        }
+        #slider_expert_section .swiper-pagination span {
+            text-align: left;
+        }
+        .swiper-pagination span:hover, .swiper-pagination span.swiper-pagination-bullet-active {
+            background-color: transparent !important;
+        }
+        /* Dons
+        -----------------------------*/
+        section#dons {
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+        .bloc__points-dons {
+            justify-content: center;
+            width: 100%;
+            flex-direction: column;
+        }
+        .points-dons {
+            width: 100%;
+        }
+        .txt__dons {
+            padding-bottom: 5vh;
+        }
+        .points-dons p {
+            text-align: center;
+            margin: .2rem 0 2rem 0;
+            font-size: 1.2rem;
+        }
+        .point-don-titre {
+            flex-direction: column;
+        }
+        .point-don-titre h5 {
+            margin: 0 0 0 -1rem;
+            padding: 0 .4rem;
+            font-size: 1.2rem;
+        }
+        .point-don-num {
+            font-size: 1.2rem;
+            width: 2.3rem;
+            height: 2.3rem;
+            margin-bottom: 1rem;
+        }
+        #boutons_dons {
+            padding: 2rem 1.5vw .2rem;
+            position: relative;
+        }
+        #boutons_dons button {
+            width: 45%;
+            margin: 2.5% 0;
+            white-space: nowrap;
+        }
+        #boutons_dons input {
+            width: 100%;
+            font-size: 1.4rem;
+        }
+        #boutons_dons div.input-don {
+            width: 100%;
+            margin: 2.5%;
+        }
+        #boutons_dons .liendon {
+            width: 100%;
+            height: 4rem;
+            margin: 5rem 2.5% 1rem;
+            padding: 1rem 0;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2rem;
+        }
+        #boutons_dons .liendon:hover {
+            background-color: #fff;
+            color: var(--red-color);
+            font-size: 2rem;
+            line-height: 2rem;
+            border-color: #fff;
+        }
+        .deduction {
+            position: absolute;
+            width: 85%;
+            bottom: 5rem;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+
+        /* Deductible
+        -----------------------------*/
+        section#deductible {
+            padding-top: 0;
+            height: auto;
+            background-image: none;
+        }
+        #deductible .deductible-img-mobile {
+            background-image: url(../../images/deductible_bg-mobile.jpg);
+            width: 100%;
+            height: 70%;
+            position: absolute;
+            z-index: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top left;
+            top: 0;
+        }
+        #deductible .obscurity {
+            top: 0;
+            opacity: .7;
+            height: 100%;
+        }
+        /* Cercles */
+        #cercles {
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            margin-bottom: 0;
+        }
+        #cercles-col {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #cercles-col p {
+            text-align: center;
+            margin: .2rem 0 1rem 0;
+        }
+        .circular-chart {
+            width: 30vw;
+            height: 30vw;
+        }
+        #txt__ecoacteur.deductible {padding: 12% 0 2% 0;}
+        #cercles-col h7 {font-size: 4.8vw;}
+        #cercles-col h8 {font-size: 4vw;padding: 0 15vw;}
+        h5.merci {
+            font-size: 1.5rem;
+            line-height: 1.9rem;
+            color: var(--red-color);
+            margin: .6rem 0;
+        }
+        h5.merci.mobile-size {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            margin: 0;
+        }
+        p.ecoacteur {
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            margin: .5rem 0;
+        }
+        #deductible .cta_btn {
+            background-color: #fff;
+        }
+        #deductible .cta_btn {
+            color: var(--red-color);
+            font-size: 2rem;
+            line-height: 2rem;
+            margin-top: .8rem;
+        }
+
+        /* Footer
+        -----------------------------*/
+        #footer {
+            flex-direction: column;
+            padding: 4vh 0 15vh 0;
+            height: 100%;
+        }
+        #footer .social-links svg {
+            height: 70px;
+            width: 70px;
+            margin: 15px 8px 30px 8px;
+        }
+        #footer__txt {
+            text-align: center;
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            width: 100%;
+        }
+        .mentions_mobile {
+            line-height: 4rem;
+        }
+        .logo-fnh {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .logo-fnh img {
+            width: 90%;
+        }
+}
